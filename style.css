@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Vezitsa";
+  src: url(ofont.ru_Vezitsa.ttf);
+}
+body {
+  margin: 0px;
+}
+.content {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 700px;
+}
+.header {
+  background-image: url(банер1.jpg);
+  min-height: 200px;
+  border-bottom: 5px solid rgb(137, 0, 0);
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  margin-top: 20px;
+  height: 150px;
+  width: 180px;
+}
+.text_logo {
+  height: 150px;
+  width: 400px;
+}
+.card {
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 5px rgb(165, 0, 0);
+  overflow: hidden;
+}
+
+.annotation {
+  font-family: "Vezitsa";
+  color: blanchedalmond;
+  font-weight: 300;
+  width: 800px;
+  height: 500px;
+  font-size: 20px;
+}
+
+p::first-letter {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(199, 3, 3);
+}
+p {
+  margin-top: 0px;
+  line-height: 25px;
+}
+.footer {
+  background-image: url(банер1.jpg);
+  border-top: 5px solid rgb(137, 0, 0);
+  height: 200px;
+  width: 100%;
+}
